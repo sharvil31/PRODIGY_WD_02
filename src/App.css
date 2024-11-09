@@ -1,0 +1,38 @@
+
+body {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 100vh;
+    /* box-sizing: border-box; */
+    padding-bottom: 30px;
+    /* overflow-y: hidden; */
+    
+}
+
+
+.spinning-border {
+    background: linear-gradient(
+      rgb(0, 204, 255),
+      rgb(0, 64, 255),
+      rgb(197, 9, 244),
+      rgb(194, 11, 11)
+    );
+  
+    position: absolute;
+    z-index: -30;
+    inset: 0;
+    animation: spin 2.5s linear infinite;
+    scale: 1.15
+}
+
+@keyframes spin {
+    from {
+      rotate: 0deg;
+    }
+    to {
+      rotate: 360deg;
+    }
+  }
