@@ -14,7 +14,7 @@ const TimeCounter = ({time}) => {
       <div className="spinning-border"></div>
     <div className="h-56 w-56 md:h-72 md:w-72 bg-stone-900 rounded-full flex items-center justify-center overflow-hidden">
 
-        <h1 className="text-5xl md:text-6xl text-gray-100">
+        <h1 className="text-[43px] md:text-[55px] text-gray-100 text-center">
             {formatNumber(minutes)}:{formatNumber(seconds)}:{formatNumber(miliseconds)}
         </h1>
     </div>

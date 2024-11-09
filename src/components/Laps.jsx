@@ -4,7 +4,7 @@ const Laps = ({ laps }) => {
   const formatNumber = (num) => String(num).padStart(2, '0');
 
   return (
-    <div className="w-[60%] md:w-[55%] mt-2 md:mt-2 bg-stone-900 p-3 rounded-md max-h-40 overflow-y-auto">
+    <div className="w-[60%] md:w-[55%] mt-2 md:mt-2 bg-stone-900 p-3 rounded-md max-h-40 overflow-y-auto text-center">
       <ul>
       {
         laps.length > 0 ? (
